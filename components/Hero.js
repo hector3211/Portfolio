@@ -20,7 +20,7 @@ export default function Hero() {
         autoPlay={true}
         muted={true}
         loop={true}
-        src="/videos/wind.mp4"
+        src="/static/videos/wind.mp4"
         objectFit="cover"
         sx={{
           aspectRatio: "16/9",
@@ -40,7 +40,7 @@ export default function Hero() {
           backdropBlur="5px"
           width={{ base: "300px", md: "400px" }}
           height={{ base: "300px", md: "400px" }}
-          src="/images/port-pic-removebg.png"
+          src="/static/images/port-pic-removebg.png"
           alt="hector picture"
         ></Image>
 

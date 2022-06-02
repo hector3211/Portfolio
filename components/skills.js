@@ -26,7 +26,7 @@ export default function skills() {
     <Box
       minWidth={{ base: "100%", md: "83%", lg: "51.1%" }}
       position={{ base: "none", md: "absolute" }}
-      top={{ md: "63%", lg: "52.5%" }}
+      top={{ md: "63%", lg: "54.8%" }}
       minHeight={{ base: "5rem", md: "3rem" }}
     >
       <Box

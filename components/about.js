@@ -31,7 +31,7 @@ export default function about() {
       >
         Bio
       </Heading>
-      <Box p={2} mt={4} rounded={20} shadow="first">
+      <Box p={2} mt={4} rounded={20}>
         <Text
           style={{ textIndent: "1.2rem" }}
           pt={5}

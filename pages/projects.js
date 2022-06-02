@@ -1,26 +1,21 @@
-import { Box, Center, SimpleGrid, Text, Button } from "@chakra-ui/react";
+import { Box, Center, SimpleGrid, Text, Image } from "@chakra-ui/react";
 import Nav from "../components/Nav";
 import { ChakraBox } from "../layouts/section";
 export default function projects() {
   return (
     <ChakraBox initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
       <Nav />
-      <Box py={5} ml={{ base: 0, md: "5rem", lg: 0 }}>
-        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8}>
+      <Box py={5} pb={3} ml={{ base: 0, md: "5rem", lg: 0 }}>
+        <SimpleGrid columns={1} spacing={8}>
           <Box>
             <Center>
-              <Text fontWeight="semibold" fontSize="xl">
+              <Text pb={1} fontWeight="semibold" fontSize="xl">
                 FireBlog
               </Text>
             </Center>
-            <Box
-              position="relative"
-              rounded={20}
-              as="video"
-              autoPlay={true}
-              muted={true}
-              loop={true}
-              src="/videos/fireblog.mp4"
+            <Image
+              src="/images/fireblog.png"
+              rounded={10}
               objectFit="contain"
               sx={{
                 aspectRatio: "16/9",
@@ -41,17 +36,13 @@ export default function projects() {
           </Box>
           <Box>
             <Center>
-              <Text fontWeight="semibold" fontSize="xl">
+              <Text pb={1} fontWeight="semibold" fontSize="xl">
                 OpenSpace
               </Text>
             </Center>
-            <Box
-              rounded={20}
-              as="video"
-              autoPlay={true}
-              muted={true}
-              loop={true}
-              src="/videos/nftsite.mp4"
+            <Image
+              rounded={10}
+              src="/images/openspace.png"
               objectFit="contain"
               sx={{
                 aspectRatio: "16/9",
@@ -71,17 +62,13 @@ export default function projects() {
           </Box>
           <Box>
             <Center>
-              <Text fontWeight="semibold" fontSize="xl">
+              <Text pb={1} fontWeight="semibold" fontSize="xl">
                 OpenSpace V2
               </Text>
             </Center>
-            <Box
-              rounded={20}
-              as="video"
-              autoPlay={true}
-              muted={true}
-              loop={true}
-              src="videos/opensea.mp4"
+            <Image
+              rounded={10}
+              src="/images/openspacedash.png"
               objectFit="contain"
               sx={{
                 aspectRatio: "16/9",

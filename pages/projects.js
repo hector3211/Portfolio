@@ -59,8 +59,8 @@ export default function projects() {
             >
               OpenSpace was something fun I thought of one day and it was
               enjoyable to make&#44; Its a nft marketplace that resembles Open
-              Sea in a way&#46; I don't know if I said this or not but I love
-              the idea of Web3 and the community it has so far&#46;
+              Sea in a way&#46; I don&apos;t know if I said this or not but I
+              love the idea of Web3 and the community it has so far&#46;
             </Text>
           </Box>
           <Box>

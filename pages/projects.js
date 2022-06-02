@@ -14,7 +14,7 @@ export default function projects() {
               </Text>
             </Center>
             <Image
-              alt="fireblog"
+              alt="fireblog picture"
               src="/images/fireblog.png"
               rounded={10}
               objectFit="contain"
@@ -28,11 +28,12 @@ export default function projects() {
               textAlign="justify"
               style={{ textIndent: "1rem" }}
             >
-              FireBlog is a application where I threw my own personal touch. A
-              user can sign up to the blog, also log into the blog using there
-              sign up email and password or they can log in with Google. I made
-              it where my email was the admin email and only I can create,edit
-              and delete posts. Anybody else can only read the posts.
+              FireBlog is a application where I threw my own personal touch&#46;
+              A user can sign up to the blog&#44; also log into the blog using
+              there sign up email and password or they can log in with
+              Google&#46; I made it where my email was the admin email and only
+              I can create&#44; edit and delete posts. Anybody else can only
+              read the posts&#46;
             </Text>
           </Box>
           <Box>
@@ -42,7 +43,7 @@ export default function projects() {
               </Text>
             </Center>
             <Image
-              alt="openspace"
+              alt="openspace picture"
               rounded={10}
               src="/images/openspace.png"
               objectFit="contain"
@@ -57,9 +58,9 @@ export default function projects() {
               style={{ textIndent: "1rem" }}
             >
               OpenSpace was something fun I thought of one day and it was
-              enjoyable to make, Its a nft marketplace that resembles Open Sea
-              in a way. I don't know if I said this or not but I love the idea
-              of Web3 and the community it has so far.
+              enjoyable to make&#44; Its a nft marketplace that resembles Open
+              Sea in a way&#46; I don't know if I said this or not but I love
+              the idea of Web3 and the community it has so far&#46;
             </Text>
           </Box>
           <Box>
@@ -69,7 +70,7 @@ export default function projects() {
               </Text>
             </Center>
             <Image
-              alt="openspace Dashboard"
+              alt="openspace Dashboard picture"
               rounded={10}
               src="/images/openspacedash.png"
               objectFit="contain"
@@ -84,9 +85,9 @@ export default function projects() {
               style={{ textIndent: "1rem" }}
             >
               OpenSpace Dashboard is about Web3, being able to harnest the power
-              of web3 people would say. With this project you can connect to
-              your wallet with ease, view recent transitions, send and receive.
-              crypto
+              of web3 people would say&#46; With this project you can connect to
+              your wallet with ease&#44; view recent transitions, send and
+              receive crypto&#46;
             </Text>
           </Box>
         </SimpleGrid>

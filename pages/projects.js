@@ -14,6 +14,7 @@ export default function projects() {
               </Text>
             </Center>
             <Image
+              alt="fireblog"
               src="/images/fireblog.png"
               rounded={10}
               objectFit="contain"
@@ -41,6 +42,7 @@ export default function projects() {
               </Text>
             </Center>
             <Image
+              alt="openspace"
               rounded={10}
               src="/images/openspace.png"
               objectFit="contain"
@@ -67,6 +69,7 @@ export default function projects() {
               </Text>
             </Center>
             <Image
+              alt="openspace Dashboard"
               rounded={10}
               src="/images/openspacedash.png"
               objectFit="contain"

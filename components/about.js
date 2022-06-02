@@ -42,8 +42,8 @@ export default function about() {
         >
           Hector started his coding journey late Dec 2021, writing Python code
           for data science that gave him an itch to create things with frontend
-          development tools such as React. eversince hes been hooked! he has the
-          ability to design your vision then create it using various
+          development tools such as React. eversince he has been hooked! he has
+          the ability to design your vision then create it using various
           technologies. Skillful in content creation apps like Figma, Resolve
           Davinci, Canva, lightroom and more. Up to date with popular JavaScript
           frameworks like React, NextJs, and of course knowledgable in

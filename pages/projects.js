@@ -72,7 +72,7 @@ export default function projects() {
             <Image
               alt="openspace Dashboard picture"
               rounded={10}
-              src="/static/images/openspace-dashboard.png"
+              src="/static/images/openspacedash.png"
               objectFit="contain"
               sx={{
                 aspectRatio: "16/9",

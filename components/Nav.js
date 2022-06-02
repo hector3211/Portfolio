@@ -35,7 +35,7 @@ export default function Nav() {
         rounded={10}
         maxWidth="3rem"
         minHeight={{ base: "4rem", md: "4rem" }}
-        justifyContent="center"
+        justifyContent="end"
         alignItems="center"
         display={{ base: "flex", md: "none" }}
         p={5}

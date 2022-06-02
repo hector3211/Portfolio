@@ -15,7 +15,7 @@ export default function projects() {
             </Center>
             <Image
               alt="fireblog picture"
-              src="/images/fireblog.png"
+              src="static/images/fireblog.png"
               rounded={10}
               objectFit="contain"
               sx={{
@@ -45,7 +45,7 @@ export default function projects() {
             <Image
               alt="openspace picture"
               rounded={10}
-              src="/images/openspace.png"
+              src="static/images/openspace.png"
               objectFit="contain"
               sx={{
                 aspectRatio: "16/9",
@@ -72,7 +72,7 @@ export default function projects() {
             <Image
               alt="openspace Dashboard picture"
               rounded={10}
-              src="/images/openspacedash.png"
+              src="static/images/openspace-dashboard.png"
               objectFit="contain"
               sx={{
                 aspectRatio: "16/9",

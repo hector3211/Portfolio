@@ -8,10 +8,10 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { ChakraBox } from "../layouts/section";
-
+import Skills from "../components/skills";
 export default function Hero() {
   return (
-    <Box position="relative" pb={20}>
+    <Box display={"flex"} position="relative" pb={20}>
       <Box
         shadow="first"
         minHeight={{ base: "80vh", md: "100vh" }}
@@ -27,9 +27,10 @@ export default function Hero() {
         rounded={30}
       />
       <Flex
+        flexShrink={0}
         position="absolute"
-        top={{ base: "10%", md: "15%", lg: "9%" }}
-        left={{ base: "10%", md: "23%", lg: "24%" }}
+        top={{ base: "10%", md: "15%", lg: "3%" }}
+        left={{ base: "8%", md: "23%", lg: "23%" }}
         direction="column"
       >
         <Image
@@ -38,7 +39,6 @@ export default function Hero() {
           backdropFilter="auto"
           backdropBlur="5px"
           maxWidth={{ base: "300px", md: "400px" }}
-          maxHeight={{ base: "300px", md: "400px" }}
           src="/static/images/port-pic-removebg.png"
           alt="hector picture"
         ></Image>
@@ -79,6 +79,7 @@ export default function Hero() {
           </ChakraBox>
         </Flex>
       </Flex>
+      <Skills />
     </Box>
   );
 }

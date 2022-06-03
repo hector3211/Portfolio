@@ -25,23 +25,18 @@ import ToggleButton from "../components/theme-toggle";
 export default function Nav() {
   return (
     <Flex
-      position={"relative"}
-      mr={3}
+      position="relative"
+      right={0}
       justify={{ base: "end", md: "start" }}
       pt={{ base: 3, md: 0 }}
     >
-      <Box
-        border={"1px solid useColorModeValue('pruple','orange')"}
+      <Flex
         rounded={10}
-        maxWidth="3rem"
-        minHeight={{ base: "4rem", md: "4rem" }}
-        justifyContent="end"
-        alignItems="center"
+        minHeight="4rem"
         display={{ base: "flex", md: "none" }}
-        p={5}
       >
         <ToggleButton />
-        <Box mx={5} display={{ base: "inline-block", md: "none" }}>
+        <Box right={0} mx={5} display={{ base: "flex", md: "none" }}>
           <Menu>
             <MenuButton as={IconButton}>
               <Icon boxSize={6} as={GiHamburgerMenu} />
@@ -92,7 +87,7 @@ export default function Nav() {
             </MenuList>
           </Menu>
         </Box>
-      </Box>
+      </Flex>
       <ChakraBox
         zIndex={2}
         initial={{ y: -100, opacity: 0 }}

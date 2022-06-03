@@ -11,11 +11,10 @@ import { ChakraBox } from "../layouts/section";
 
 export default function Hero() {
   return (
-    <Box pb={20}>
+    <Box position="relative" pb={20}>
       <Box
         shadow="first"
         minHeight={{ base: "80vh", md: "100vh" }}
-        position="relative"
         as="video"
         autoPlay={true}
         muted={true}
@@ -29,8 +28,8 @@ export default function Hero() {
       />
       <Flex
         position="absolute"
-        top={{ base: "10rem", md: "10rem", lg: 10 }}
-        left={{ base: 10, md: 250, lg: "35%" }}
+        top={{ base: "1rem", md: "10rem", lg: 10 }}
+        left={{ base: 6, md: 250, lg: "35%" }}
         direction="column"
       >
         <Image
@@ -38,8 +37,8 @@ export default function Hero() {
           rounded="full"
           backdropFilter="auto"
           backdropBlur="5px"
-          width={{ base: "300px", md: "400px" }}
-          height={{ base: "300px", md: "400px" }}
+          maxWidth={{ base: "300px", md: "400px" }}
+          maxHeight={{ base: "300px", md: "400px" }}
           src="/static/images/port-pic-removebg.png"
           alt="hector picture"
         ></Image>

@@ -29,7 +29,7 @@ export default function Hero() {
       <Flex
         position="absolute"
         top={{ base: "10%", md: "15%", lg: "9%" }}
-        left={{ base: "9%", md: "23%", lg: "24%" }}
+        left={{ base: "10%", md: "23%", lg: "24%" }}
         direction="column"
       >
         <Image

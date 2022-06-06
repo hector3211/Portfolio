@@ -28,12 +28,13 @@ export default function projects() {
               textAlign="justify"
               style={{ textIndent: "1rem" }}
             >
-              FireBlog is a application where I threw my own personal touch&#46;
-              A user can sign up to the blog&#44; also log into the blog using
-              there sign up email and password or they can log in with
-              Google&#46; I made it where my email was the admin email and only
-              I can create&#44; edit and delete posts. Anybody else can only
-              read the posts&#46;
+              FireBlog is an application where Hector honed in on his own
+              personal touch&#46; A user has the ability to sign up to the
+              blog&#44; log into the blog using a sign-up email and password or
+              they can log in with Google&#46; Hector created an application
+              where his email is the admin email and only he has the ability to
+              create&#44; edit and delete posts&#46; Spectators are able to view
+              any posts&#46;
             </Text>
           </Box>
           <Box>
@@ -57,10 +58,12 @@ export default function projects() {
               textAlign="justify"
               style={{ textIndent: "1rem" }}
             >
-              OpenSpace was something fun I thought of one day and it was
-              enjoyable to make&#44; Its a nft marketplace that resembles Open
-              Sea in a way&#46; I don&apos;t know if I said this or not but I
-              love the idea of Web3 and the community it has so far&#46;
+              OpenSpace was something exciting Hector coded one day and was
+              enjoyable to create&#44; Its a nft marketplace that resembles Open
+              Sea in a way&#46; Hector is currently exploring more about Web3
+              and gaining experience under his belt with tools such as
+              Hardhat&#44; Moralis&#44; Solidity&#44; Chainlink and
+              Openzeplin&#46;
             </Text>
           </Box>
           <Box>
@@ -84,10 +87,10 @@ export default function projects() {
               textAlign="justify"
               style={{ textIndent: "1rem" }}
             >
-              OpenSpace Dashboard is about Web3, being able to harnest the power
-              of web3 people would say&#46; With this project you can connect to
-              your wallet with ease&#44; view recent transitions, send and
-              receive crypto&#46;
+              OpenSpace Dashboard is about Web3, being able to harness the power
+              of web3 provides others with the ability to say &#46; "With this
+              project you can connect to your wallet with ease&#44; view recent
+              transitions, send and receive crypto&#46;"
             </Text>
           </Box>
         </SimpleGrid>

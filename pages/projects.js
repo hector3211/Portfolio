@@ -88,9 +88,9 @@ export default function projects() {
               style={{ textIndent: "1rem" }}
             >
               OpenSpace Dashboard is about Web3, being able to harness the power
-              of web3 provides others with the ability to say &#46; "With this
-              project you can connect to your wallet with ease&#44; view recent
-              transitions, send and receive crypto&#46;"
+              of web3 provides others with the ability to say &#46; &#34;With
+              this project you can connect to your wallet with ease&#44; view
+              recent transitions, send and receive crypto&#46;&#34;
             </Text>
           </Box>
         </SimpleGrid>

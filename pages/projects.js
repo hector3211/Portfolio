@@ -1,4 +1,13 @@
-import { Box, Center, SimpleGrid, Text, Image } from "@chakra-ui/react";
+import {
+  Box,
+  Center,
+  SimpleGrid,
+  Text,
+  Image,
+  Link,
+  useColorMode,
+  useColorModeValue,
+} from "@chakra-ui/react";
 import Nav from "../components/Nav";
 import { ChakraBox } from "../layouts/section";
 export default function projects() {
@@ -7,9 +16,48 @@ export default function projects() {
       <Nav />
       <Box py={5} pb={3} ml={{ base: 0, md: "5rem", lg: 0 }}>
         <SimpleGrid columns={1} spacing={8}>
-          <Box>
+          <Box my={5}>
             <Center>
-              <Text pb={1} fontWeight="semibold" fontSize="xl">
+              <Text pb={1} fontWeight="semibold" fontSize="3xl">
+                Travel Agency
+              </Text>
+            </Center>
+            <Image
+              alt="fireblog picture"
+              src="/static/images/travel.jpeg"
+              rounded={10}
+              objectFit="contain"
+              sx={{
+                aspectRatio: "16/9",
+              }}
+            />
+            <Text
+              pt={5}
+              fontSize={{ base: "md", md: "2xl" }}
+              textAlign="justify"
+              style={{ textIndent: "1rem" }}
+            >
+              <Link
+                href={"https://travel-hector3211.vercel.app"}
+                target="_blank"
+                rel="noopener noreferrer"
+                fontSize="3xl"
+                fontWeight={"bold"}
+                color={useColorModeValue("purple", "orange")}
+                _hover={{
+                  color: useColorModeValue("orange", "purple"),
+                }}
+              >
+                Travel&nbsp;
+              </Link>
+              is Hector's newest creation&#46; It is a travel agency website
+              that highlists the latest website design trends and offers top
+              security user authentication&#44;
+            </Text>
+          </Box>
+          <Box my={5}>
+            <Center>
+              <Text pb={1} fontWeight="semibold" fontSize="3xl">
                 FireBlog
               </Text>
             </Center>
@@ -24,7 +72,7 @@ export default function projects() {
             />
             <Text
               pt={5}
-              fontSize="md"
+              fontSize={{ base: "md", md: "2xl" }}
               textAlign="justify"
               style={{ textIndent: "1rem" }}
             >
@@ -37,9 +85,9 @@ export default function projects() {
               any posts&#46;
             </Text>
           </Box>
-          <Box>
+          <Box my={5}>
             <Center>
-              <Text pb={1} fontWeight="semibold" fontSize="xl">
+              <Text pb={1} fontWeight="semibold" fontSize="3xl">
                 OpenSpace
               </Text>
             </Center>
@@ -54,7 +102,7 @@ export default function projects() {
             />
             <Text
               pt={5}
-              fontSize="md"
+              fontSize={{ base: "md", md: "2xl" }}
               textAlign="justify"
               style={{ textIndent: "1rem" }}
             >
@@ -66,9 +114,9 @@ export default function projects() {
               Openzeplin&#46;
             </Text>
           </Box>
-          <Box>
+          <Box my={5}>
             <Center>
-              <Text pb={1} fontWeight="semibold" fontSize="xl">
+              <Text pb={1} fontWeight="semibold" fontSize="3xl">
                 OpenSpace V2
               </Text>
             </Center>
@@ -83,7 +131,7 @@ export default function projects() {
             />
             <Text
               pt={5}
-              fontSize="md"
+              fontSize={{ base: "md", md: "2xl" }}
               textAlign="justify"
               style={{ textIndent: "1rem" }}
             >

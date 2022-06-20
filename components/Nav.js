@@ -1,6 +1,4 @@
 import {
-  Center,
-  Button,
   Flex,
   Box,
   Icon,
@@ -10,8 +8,6 @@ import {
   MenuList,
   MenuItem,
   Link,
-  useColorModeValue,
-  Container,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";

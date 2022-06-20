@@ -5,12 +5,11 @@ import {
   Text,
   Image,
   Link,
-  useColorMode,
   useColorModeValue,
 } from "@chakra-ui/react";
 import Nav from "../components/Nav";
 import { ChakraBox } from "../layouts/section";
-export default function projects() {
+export default function Projects() {
   return (
     <ChakraBox initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
       <Nav />

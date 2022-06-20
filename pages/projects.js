@@ -49,9 +49,9 @@ export default function Projects() {
               >
                 Travel&nbsp;
               </Link>
-              is Hector's newest creation&#46; It is a travel agency website
-              that highlists the latest website design trends and offers top
-              security user authentication&#44;
+              is Hector&apos;s newest creation&#46; It is a travel agency
+              website that highlists the latest website design trends and offers
+              top security user authentication&#44;
             </Text>
           </Box>
           <Box my={5}>

@@ -41,13 +41,15 @@ export default function about() {
           textAlign="justify"
         >
           Hector started his coding journey late Dec 2021, writing Python code
-          for data science started an itch to create things with frontend
-          development tools such as React. He now as a result has the ability to
-          design your vision then create it using various technologies. He is
-          skilled in content creation apps like Figma, Resolve Davinci, Canva,
-          lightroom and many more. He is up to date with popular JavaScript
-          frameworks like React, NextJs, and knowledgable in Html,Css.Vanilla
-          JavaScript.
+          for data science,that started an itch to create things with frontend
+          development tools. He now as a result has the ability to design your
+          vision then create it using various technologies. He is skilled in
+          content creation apps like <strong>Figma</strong>,
+          <strong>Resolve Davinci</strong>, <strong>Canva</strong>,
+          <strong>lightroom</strong> and many more. He is up to date with
+          popular JavaScript frameworks like <strong>React</strong>,{" "}
+          <strong>NextJs</strong>, and knowledgable in <strong>Html</strong>,
+          <strong>CSS</strong>,<strong>Vanilla JavaScript</strong>.
         </Text>
       </Box>
     </ChakraBox>

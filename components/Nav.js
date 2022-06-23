@@ -98,7 +98,6 @@ export default function Nav() {
         minHeight={{ md: "30%", lg: "60%" }}
         display={{ base: "none", md: "flex" }}
         justifyContent="space-evenly"
-        rounded={40}
       >
         <Flex direction="column" minWidth="100%">
           <Flex

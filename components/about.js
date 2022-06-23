@@ -14,17 +14,14 @@ import { ChakraBox } from "../layouts/section";
 export default function about() {
   return (
     <ChakraBox
-      mt={10}
+      py={10}
       initial={{ y: 20, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, delay: 0.3 }}
       viewport={{ once: true }}
-      display="block"
-      backdropFilter="auto"
-      pb={4}
     >
       <Heading
-        fontSize="4xl"
+        fontSize={{ base: "3xl", md: "4xl" }}
         ml={3}
         textDecor="underline"
         textUnderlineOffset={5}
@@ -35,8 +32,8 @@ export default function about() {
         <Text
           style={{ textIndent: "1.2rem" }}
           pt={5}
-          fontSize="xl"
-          lineHeight="shorter"
+          fontSize={{ base: "md", md: "xl" }}
+          lineHeight="short"
           fontWeight="hairline"
           textAlign="justify"
         >
@@ -46,10 +43,11 @@ export default function about() {
           vision then create it using various technologies. He is skilled in
           content creation apps like <strong>Figma</strong>,
           <strong>Resolve Davinci</strong>, <strong>Canva</strong>,
-          <strong>lightroom</strong> and many more. He is up to date with
-          popular JavaScript frameworks like <strong>React</strong>,{" "}
-          <strong>NextJs</strong>, and knowledgable in <strong>Html</strong>,
-          <strong>CSS</strong>,<strong>Vanilla JavaScript</strong>.
+          <strong>lightroom</strong>,<strong>Spline</strong> and many more. He
+          is up to date with popular JavaScript frameworks like{" "}
+          <strong>React</strong>, <strong>NextJs</strong>, and knowledgable in{" "}
+          <strong>Html</strong>,<strong>CSS</strong>,
+          <strong>Vanilla JavaScript</strong>.
         </Text>
       </Box>
     </ChakraBox>

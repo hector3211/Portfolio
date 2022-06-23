@@ -6,7 +6,7 @@ const config = {
   useSystemColorMode: true,
 };
 const shadows = {
-  first: "1px  1px 10px 1px white",
+  first: "1px  1px 20px 1px black",
 };
 const colors = {
   primary: "#E94560",
@@ -14,7 +14,7 @@ const colors = {
 const styles = {
   global: (props) => ({
     body: {
-      bg: mode("#FAF3E3", "#3E497A")(props),
+      bg: mode("#FCF8E8", "#363062")(props),
     },
   }),
 };

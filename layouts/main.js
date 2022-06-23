@@ -1,6 +1,5 @@
 import { Box, Container } from "@chakra-ui/react";
 import Head from "next/head";
-
 export default function main({ children }) {
   return (
     <Box as="main" minHeight="100vh" mt={5}>

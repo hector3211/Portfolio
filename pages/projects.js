@@ -8,24 +8,32 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import Nav from "../components/Nav";
+import Rocket from "../components/rocket";
 import { ChakraBox } from "../layouts/section";
 export default function Projects() {
   return (
     <ChakraBox initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
       <Nav />
-      <Box py={5} pb={3} ml={{ base: 0, md: "5rem", lg: 0 }}>
+      <Box
+        py={5}
+        pb={3}
+        ml={{ base: 0, md: "5rem", lg: 0 }}
+        mt={{ base: 0, md: 5 }}
+      >
+        <Rocket />
         <SimpleGrid columns={1} spacing={8}>
-          <Box my={5}>
+          <Box my={5} pt={5}>
             <Center>
               <Text pb={1} fontWeight="semibold" fontSize="3xl">
                 Travel Agency
               </Text>
             </Center>
             <Image
+              shadow="first"
+              rounded={20}
               alt="fireblog picture"
               src="/static/images/travel.jpeg"
-              rounded={10}
-              objectFit="contain"
+              objectFit="cover"
               sx={{
                 aspectRatio: "16/9",
               }}
@@ -61,10 +69,11 @@ export default function Projects() {
               </Text>
             </Center>
             <Image
+              shadow="first"
               alt="fireblog picture"
               src="/static/images/fireblog.png"
-              rounded={10}
-              objectFit="contain"
+              rounded={20}
+              objectFit="cover"
               sx={{
                 aspectRatio: "16/9",
               }}
@@ -91,10 +100,11 @@ export default function Projects() {
               </Text>
             </Center>
             <Image
+              shadow={"first"}
               alt="openspace picture"
               rounded={10}
               src="/static/images/openspace.png"
-              objectFit="contain"
+              objectFit="cover"
               sx={{
                 aspectRatio: "16/9",
               }}
@@ -120,10 +130,11 @@ export default function Projects() {
               </Text>
             </Center>
             <Image
+              shadow="first"
               alt="openspace Dashboard picture"
-              rounded={10}
+              rounded={20}
               src="/static/images/openspacedash.png"
-              objectFit="contain"
+              objectFit="cover"
               sx={{
                 aspectRatio: "16/9",
               }}

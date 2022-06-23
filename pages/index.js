@@ -4,6 +4,7 @@ import Nav from "../components/Nav";
 import { ChakraBox } from "../layouts/section";
 
 import About from "../components/about";
+import Rocket from "../components/rocket";
 export default function Home() {
   return (
     <ChakraBox
@@ -13,6 +14,7 @@ export default function Home() {
     >
       <Nav />
       <Box ml={{ base: 0, md: "3.5rem", lg: 0 }}>
+        <Rocket />
         <Hero />
 
         <About />

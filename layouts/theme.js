@@ -5,7 +5,7 @@ const config = {
   useSystemColorMode: true,
 };
 const shadows = {
-  first: "1px  1px 15px 1px white",
+  first: "1px  1px 10px 1px white",
 };
 const colors = {
   primary: "#E94560",

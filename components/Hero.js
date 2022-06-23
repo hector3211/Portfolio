@@ -13,7 +13,6 @@ export default function Hero() {
   return (
     <Box display={"flex"} position="relative" pb={20}>
       <Box
-        shadow="first"
         minHeight={{ base: "80vh", md: "100vh" }}
         as="video"
         autoPlay={true}
@@ -27,7 +26,6 @@ export default function Hero() {
         rounded={30}
       />
       <Flex
-        flexShrink={0}
         position="absolute"
         top={{ base: "10%", md: "15%", lg: "3%" }}
         left={{ base: "8%", md: "23%", lg: "23%" }}

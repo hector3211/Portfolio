@@ -10,7 +10,7 @@ export default function Rocket() {
     spline.current.setZoom(1.6);
   }
   return (
-    <Box minH={"15rem"} mb={{ base: 5, md: 3 }}>
+    <Box minH={{ base: "15rem", md: "20rem" }} mb={{ base: 5, md: 3 }}>
       <Spline
         style={{ borderRadius: 20 }}
         scene="https://prod.spline.design/mfK65j4zF0rnj1tW/scene.splinecode"
